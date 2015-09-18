@@ -26,7 +26,7 @@ var io = require('socket.io').listen(server);
 
 var twitterClient = new require('twitter')(require('./twitter-credentials'));
 twitterClient.stream('statuses/filter', {
-  track: '#camunity'
+  track: '#bpmcon'
 },  function(stream){
   stream.on('data', function(tweet) {
     io.emit('tweet', tweet);
