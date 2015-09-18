@@ -12,7 +12,7 @@ Ohhhhhh c'mon...
 
 1st hint: search and replace
 
-2nd hind: create file looking like:
+2nd hint: create file looking like:
 
 ```js
 'use strict';
