@@ -1,3 +1,4 @@
-twitter-credentials.js
+setup.js
 static
 node_modules
+.tweet-cache

@@ -10,22 +10,22 @@ Ohhhhhh c'mon...
 
 `git clone` `npm i` and all that stuff,
 
-1st hint: search and replace
-
-2nd hint: create file looking like:
 
 ```js
 'use strict';
 /*jshint node: true*/
 module.exports = {
-  consumer_key:
-    process.env.TWITTER_CONSUMER_KEY,
-  consumer_secret:
-    process.env.TWITTER_CONSUMER_SECRET,
-  access_token_key:
-    process.env.TWITTER_ACCESS_TOKEN_KEY,
-  access_token_secret:
-    process.env.TWITTER_ACCESS_TOKEN_SECRET
+  tag: 'bpmcon',
+  credentials: {
+    consumer_key:
+      process.env.TWITTER_CONSUMER_KEY,
+    consumer_secret:
+      process.env.TWITTER_CONSUMER_SECRET,
+    access_token_key:
+      process.env.TWITTER_ACCESS_TOKEN_KEY,
+    access_token_secret:
+      process.env.TWITTER_ACCESS_TOKEN_SECRET
+  }
 };
 ```
 

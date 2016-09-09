@@ -1,0 +1,37 @@
+.tweet-tag {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.tweets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 34px;
+}
+
+.tweets li:first-of-type {
+  padding-top: 16px;
+}
+
+.tweets li {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eee;
+  transition: opacity 0.218s ease;
+}
+
+.tweets .entering {
+  opacity: 0;
+}
+
+
+.tweets .author {
+  color: #000;
+}
+
+.media img {
+  margin: auto;
+  display: block;
+  max-height: 300px;
+}
